@@ -11,8 +11,8 @@
     this.face = face;
   };
 
-  function Game(opts, callback){
-    this.diff = opts.diff;
+  function Game(diff, callback){
+    this.diff = diff;
     this.callback = callback;
 
     var player = new HeadGuy(
