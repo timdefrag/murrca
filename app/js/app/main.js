@@ -1,6 +1,17 @@
 
 
-(function(exports) {
+function menu() {
+
+}
+
+function play() {
+
+}
+
+function gameover() {
+
+}
 
 
-})(window);
+// Run da gaem
+menu();
