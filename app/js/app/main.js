@@ -15,7 +15,7 @@ function play(diff) {
 function gameover(stats) {
   // Build a new stats/score screen and show it,
   // then tell it to call 'menu' when you're done.
-  new GOScreen(stats, menu);
+  new Stats(stats, menu);
 }
 
 
